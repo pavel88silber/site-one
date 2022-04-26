@@ -1,0 +1,192 @@
+body {
+    background-color: rgb(106, 192, 235);
+}
+
+.site-one {
+    margin: auto;
+    height: 600px;
+    width: 956px;
+}
+
+h3 {
+    box-sizing: border-box;
+    padding-right: 30px; 
+}
+
+p {
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.imgBox {
+    border-radius: 21px;
+    width: 160px;
+    height: 160px;
+    margin: 15px;
+    background-color: #eee;
+    float: left;
+    position: relative;
+}
+
+img {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 21px;
+    border: 1px solid #6c6c6c;
+    position: absolute;
+    left: -5px;
+    top: -5px;
+}
+
+.header {
+    width: 950px;
+    background-color: #ffaeb8;
+    border: 1px solid #6c6c6c;
+    border-radius: 11px;
+    height: 150px;
+    text-align: center;
+    position: relative;
+    /* for vertical align */
+    display: table;
+    text-align: center;
+}
+
+
+
+.site-one-title {
+    /* for vertical align */
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 42px;
+    font-style: italic;
+    text-shadow: 0 2px rgb(188, 173, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+
+    font-family: 'Lobster', cursive;
+    font-family: 'Secular One', sans-serif;
+    font-size: 5em;
+    text-shadow: 3px 5px 2px rgb(214 152 17 / 88%),
+                5px 5px 1px rgb(211 19 169 / 86%);
+    color: rgba(32, 10, 153, 0.925);
+}
+
+.logo1 {
+    background-color: rgb(207, 224, 15);
+    border: 1px solid black;
+    height: 90px;
+    width: 90px;
+    border-radius: 15px 45px;
+    position: absolute;
+    right: 3%;
+    top: 17%;
+    /* for vertical align */
+    display: table;
+    text-align: center;
+}
+
+.logoText {
+    /* for vertical align */
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+
+#slogan {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    position: absolute;
+    top: 110px;
+    right: 14px;
+}
+
+.main {
+    background-color: #269ee9;
+    border: 1px solid #6c6c6c;
+    border-radius: 11px;
+    height: 400px;
+    width: 785px;
+    text-align: right;
+    float: left;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.main-article{
+    text-shadow: 0 1px #999;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articleTitle {
+    font-size: 22px;
+    text-shadow: 0 1px rgb(126, 225, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+}
+
+.articleImg {
+    float: left;
+}
+
+
+.side {
+    background-color: #61b56cb5;
+    border: 1px solid #6c6c6c;
+    border-radius: 11px;
+    width: 160px;
+    height: 400px;
+    margin-left: 790px;
+    text-align: right;
+    margin-top: 5px;
+
+}
+
+.main-menu {
+    float: right;
+}
+
+ul {
+    list-style-type:none;
+}
+
+li {
+    background-color: #ffaeb8;
+    height: 20px;
+    width: 140px;
+    margin: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;;
+    text-align: center;
+    box-shadow: 5px 5px 0 rgb(227, 134, 134);
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: #e16f7c;
+    box-shadow: 5px 5px 0 rgb(170, 94, 94);
+    cursor: pointer;
+}
+
+.footer {
+    background-color: burlywood;
+    border: 1px solid #6c6c6c;
+    border-radius: 11px;
+    height: 120px;
+    width: 950px;
+    margin-top: 5px;
+    /* for vertical align */
+    display: table;
+    text-align: center;
+}
+
+#date {
+    font-size: 22px;
+    text-shadow: 0 1px rgb(126, 225, 4);
+    font-family: Arial, Helvetica, sans-serif;
+    color: crimson;
+    /* for vertical align */
+    display: table-cell;
+    vertical-align: middle;
+}
